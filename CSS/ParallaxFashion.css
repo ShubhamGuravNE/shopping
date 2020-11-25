@@ -3,6 +3,22 @@
   padding: 0;
 }
 
+.logo{
+  font-family: 'Great Vibes', cursive;
+  /* text-transform: uppercase; */
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: 800;
+  color: #f84258;
+}
+.nav-text{
+  /* font-family: 'Montserrat', sans-serif; */
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #434343;
+}
+
 /* ===**Section1**=== */
 #section1{
   position: relative;
@@ -92,17 +108,18 @@
 .background1{
   background: url(../Images/bg_1.jpg) no-repeat;
   background-size: cover;
-  background-position: bottom;
-  background-position: relative;
   height: 630px;
+  background-position: bottom bottom;
+  /* background-position: relative; */
+
 }
 .overlay{
+  content: '';
   position: absolute;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 55%;
   opacity: .7;
   background: #f26e7e;
@@ -155,6 +172,14 @@ content: '';
   background-color: #fff;
   margin-bottom: 30px;
 }
+/* .shopping-card{
+  cursor: url("../Images/find.png"), auto;
+} */
+
+/* .product1:hover .product1-hover-img{
+  background: url(../Images/store-11.jpg) no-repeat;
+} */
+
 /* ===**Section7 End**=== */
 
 /* ===**Section8**=== */
@@ -162,11 +187,11 @@ content: '';
   position: relative;
 }
 form input{
-height: 50px !important;
-width: 60%;
-padding: 10px 32px !important;
-border: 1px solid #fff !important;
-border-radius: 2rem !important;
+  height: 50px !important;
+  width: 60%;
+  padding: 10px 32px !important;
+  border: 1px solid #fff !important;
+  border-radius: 2rem !important;
 }
 .inp-btn{
   padding: 9px 50px !important;
@@ -186,93 +211,33 @@ border-radius: 2rem !important;
 #section9{
   position: relative;
 }
+/* ===**Section9 End**=== */
+
+/* ===**Footer**=== */
+#footer{
+  position: relative;
+}
 .background2{
   background: url(../Images/bg_4.jpg) no-repeat;
   background-size: cover;
   background-position: bottom;
-  height: 630px;
+
+  height: 500px;
 }
-.footer-icon{
+.shape-line::before{
+  content: '';
+  width: 50px;
+  height: 10px;
+  background: url(../Images/shape-11.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+/* .footer-icon{
   height: 200px;
   width: 200px;
   background: #ffc107;
   border-radius: 100%;
   position: relative;
-}
-/* ===**Section9 End**=== */
+} */
 
-/* ===**Footer**=== */
 /* ===**Footer End**=== */
-
-
-
-
-
-/* ----====List====---- */
-
-/* ===**Text Effect**=== */
-
-.text-style-3{
-  text-transform: uppercase;
-  font-size: 70px;
-  font-weight: 700;
-  line-height: 1;
-  color: #000000;
-}
-.text-style-2{
-  text-transform: uppercase;
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 1;
-  color: #ffffff;
-}
-.text-style-1{
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 1000;
-  line-height: 1;
-  color: #808080;
-}
-.text-style-4{
-  text-transform: uppercase;
-  font-size: 60px;
-  font-weight: 700;
-  line-height: 1;
-  color: #ffffff;
-}
-.text-style-5{
-  text-transform: uppercase;
-  font-size: 50px;
-  font-weight: 800;
-  line-height: 1.2;
-  color: #080808;
-}
-.text-style-6{
-  /* text-transform: uppercase; */
-  font-size: 35px;
-  font-weight: 700;
-  line-height: 1;
-  color: #6c757d;
-}
-.text-style-7{
-  text-transform: uppercase;
-  font-size: 50px;
-  font-weight: 400;
-  line-height: 1;
-  color: #ffffff;
-}
-
-/* ===**Background Color**=== */
-.bg-color1{
-  opacity: .9;
-  background: #ffc107;
-  position: relative;
-}
-.bg-color2{
-  background: #eaeaea;
-  position: relative;
-}
-.bg-color3{
-  background: #f84258;#ff7c98
-  position: relative;
-}
